@@ -34,7 +34,7 @@ O histórico mostra o nome do arquivo, horário, status e quantidade de linhas a
 
 A planilha deve ter uma linha de cabeçalhos e as colunas `data`, `vendedor`, `produto`, `quantidade` e `valor_unitario`. A ordem das colunas pode variar. Maiúsculas, espaços e acentos nos cabeçalhos são normalizados.
 
-![Exemplo de planilha de vendas](docs/screenshots/05-planilha-exemplo.png)
+![Exemplo de planilha de vendas](docs/screenshots/05-planilha-exemplo-atualizada.png)
 
 ### Dashboard exportado para Power BI
 
@@ -189,5 +189,6 @@ O workflow é CI: ele valida e constrói, mas **não publica uma imagem em regis
 - `examples/vendas_com_erros.xlsx`: planilha com dados para exercitar a revisão de linhas.
 
 Use apenas dados de teste ao compartilhar capturas, logs ou execuções no GitHub.
+
 
 
