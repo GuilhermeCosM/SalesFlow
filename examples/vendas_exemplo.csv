@@ -1,0 +1,5 @@
+data,vendedor,produto,quantidade,valor_unitario
+2026-10-01,Ana,Notebook,2,2500.00
+2026-10-01,Bruno,Monitor,3,899.90
+2026-10-02,Ana,Mouse,10,79.90
+2026-10-02,Caio,Teclado,4,149.90

@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Runtime data, imported spreadsheets, databases and generated reports/projects
+/data/
+/exports/

@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: sales
+      POSTGRES_USER: sales
+      POSTGRES_PASSWORD: sales
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  app:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg://sales:sales@db:5432/sales
+      INBOX_DIR: /app/data/inbox
+      REPORT_DIR: /app/data/reports
+      AUTO_PROCESS_INBOX: "true"
+      INBOX_POLL_SECONDS: "5"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - db
+volumes:
+  postgres_data:
