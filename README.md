@@ -176,7 +176,7 @@ O workflow é CI: ele valida e constrói, mas **não publica uma imagem em regis
 
 ### Publicar este projeto pelo VS Code
 
-1. Abra no VS Code a pasta `relatorio-automatico`, que é a raiz deste projeto.
+1. Abra no VS Code a pasta `SalesFlow`, que é a raiz deste projeto.
 2. Em **Source Control**, clique em **Initialize Repository**.
 3. Revise os arquivos antes do commit. Os exemplos de demonstração ficam em `examples/` e podem ser versionados. O `.gitignore` exclui `data/` e `exports/`, que contêm dados de execução, planilhas importadas e projetos Power BI gerados.
 4. Faça o primeiro commit com o aplicativo, o workflow, os exemplos e a documentação.
@@ -189,4 +189,5 @@ O workflow é CI: ele valida e constrói, mas **não publica uma imagem em regis
 - `examples/vendas_com_erros.xlsx`: planilha com dados para exercitar a revisão de linhas.
 
 Use apenas dados de teste ao compartilhar capturas, logs ou execuções no GitHub.
+
 
